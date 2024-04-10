@@ -31,12 +31,12 @@ $$
 
 onde $$\omega = cis(2º)$$  e $$z = cis(8º)$$
 
-Com isso em mente, sabemos que o polinômio das n-raízes da unidade é da seguinte forma  $$ p(z)=z^n-1$$ , $$ \{1, z=cis(\frac{360º}{n},z^2,...,z^{n-1} \} $$
+Com isso em mente, sabemos que o polinômio das n-raízes da unidade é da seguinte forma  $$ p(z)=z^n-1$$ , $$ \{1, z=cis(\frac{360º}{n}),z^2,...,z^{n-1} \} $$
 
 E pelas relações de Girard a soma do inverso das raízes de um polinômio $p(x)$ qualquer é:
 
 $$
-\sum \frac{1}{x_k} = (-1)^{deg(p(x)))}\frac{p_1}{p_0}
+\sum \frac{1}{x_k} = (-1)\frac{p_1}{p_0}
 $$
 
 Agora precisamos gerar um polinômio cujas as raízes sejam da forma $1-\omega z^k$
@@ -95,7 +95,7 @@ $$
 Como $$ deg(p(z)) = 45 $$, teremos que:
 
 $$
-\sum_{k=-22}^{22}\frac{1}{1-\omega z^k} = (-1)^{45}\frac{45}{i-1}=\frac{45}{2}(1+i) \implies \boxed{Img(\sum_{k=-22}^{22}\frac{1}{1-\omega z^k}) = \frac{45}{2}}
+\sum_{k=-22}^{22}\frac{1}{1-\omega z^k} = (-1)\frac{45}{i-1}=\frac{45}{2}(1+i) \implies \boxed{Img(\sum_{k=-22}^{22}\frac{1}{1-\omega z^k}) = \frac{45}{2}}
 $$
 
 Finalmente, podemos concluir nosso resultado da nossa questão original é:
