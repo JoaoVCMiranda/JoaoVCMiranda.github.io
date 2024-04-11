@@ -24,5 +24,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 
 # For generating posts templates
-gem 'jekyll-compose', group: [:jekyll_plugins]
+gem "jekyll-compose", group: [:jekyll_plugins]
 
