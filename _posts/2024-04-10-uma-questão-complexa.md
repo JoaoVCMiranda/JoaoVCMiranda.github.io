@@ -7,7 +7,7 @@ tags: [complex numbers, polynomials]
 math: true
 ---
 
-Calcule $tan(1º)+tan(5º)+...+tan(177º)$
+## Calcule $tan(1º)+tan(5º)+...+tan(177º)$
 
 Para solucionar essa questão, utilizarei de um fato conhecido de complexos:
 
@@ -17,6 +17,7 @@ $$
 
 Prove você.
 
+### Manipulações trigonométricas
 Sabendo que $tan(\theta)=cotg(90-\theta)$, teremos que:
 
 $$
@@ -30,6 +31,8 @@ $$
 $$
 
 onde $$\omega = cis(2º)$$  e $$z = cis(8º)$$
+
+### Modelagem polinomial
 
 Com isso em mente, sabemos que o polinômio das n-raízes da unidade é da seguinte forma  $$ p(z)=z^n-1$$ , $$ \{1, z=cis(\frac{360º}{n}),z^2,...,z^{n-1} \} $$
 
@@ -56,7 +59,11 @@ Escalar raízes de um polinômio qualquer por um fator $$ a $$.
  
 
 $$
-p(x) = (x-x_1)...(x-x_n)\implies p(\frac{x}{a})=(\frac{x}{a}-x_1)...(\frac{x}{a}-x_n)\\ \implies p(\frac{x}{a})=\frac{1}{a^n}(x-ax_1)...(x-ax_n) \\ \boxed{g(x)=a^np(\frac{x}{a})=(x-ax_1)...(x-ax_n)} 
+p(x) = (x-x_1)...(x-x_n)\implies p(\frac{x}{a})=(\frac{x}{a}-x_1)...(\frac{x}{a}-x_n)\\ \implies p(\frac{x}{a})=\frac{1}{a^n}(x-ax_1)...(x-ax_n) 
+$$
+
+$$
+\boxed{g(x)=a^np(\frac{x}{a})=(x-ax_1)...(x-ax_n)} 
 $$
 
 E para transladar é como imaginar que você está no referencial da reta numérica, se você quer que seja adicionado um valor $$ c $$ nas raízes, você deve ir “$$ c $$” para trás, e caso seja para subtrair “$$ c $$” para frente… Dessa forma
@@ -85,20 +92,25 @@ $$
 h(z)=(z-1)^{45}+w^{45}
 $$
 
+### Binômio de Newton
+
 Podemos agora calcular os coeficientes de $$ z^0 $$ e $$ z^1 $$
 
 $$
-[z^0]=\omega^{45}+(1)^{0}(-1)^{45}\binom{45}{0} = cis(90º)-1=\boxed{i-1} \\
+[z^0]=\omega^{45}+(1)^{0}(-1)^{45}\binom{45}{0} = cis(90º)-1=\boxed{i-1} 
+$$
+
+$$
 [z^1]=(1)^{1}(-1)^{44}\binom{45}{1}=\boxed{45}
 $$
 
-Como $$ deg(p(z)) = 45 $$, teremos que:
+Assim, 
 
 $$
 \sum_{k=-22}^{22}\frac{1}{1-\omega z^k} = (-1)\frac{45}{i-1}=\frac{45}{2}(1+i) \implies \boxed{Img(\sum_{k=-22}^{22}\frac{1}{1-\omega z^k}) = \frac{45}{2}}
 $$
 
-Finalmente, podemos concluir nosso resultado da nossa questão original é:
+Finalmente, podemos concluir que nosso resultado da nossa questão original é:
 
 $$
 \boxed{tan(1º)+tan(5º)+...+tan(177º) = 45}
