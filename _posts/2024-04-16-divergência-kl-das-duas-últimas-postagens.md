@@ -447,11 +447,13 @@ D(alencar||doyle)= 1.915881083528522e-06 bits
 _Histograma das distribuições_
 
 
-Esses resultados são intrigantes, para algumas pesquisas no futuro, mas serviram muito bem para treinar algumas habilidades e explorar a curiosidade.
+Esses resultados significam que caso fossemos fazer um código ótimo para representar os caracteres em um idioma quando na verdade é o outro, se fossemos fazer um [código de Huffman](https://en.wikipedia.org/wiki/Huffman_coding) o comprimento médio por bit seria aproximadamente $ 7.5*10e-5 $ maior, ou seja, que a cada 100.000 caracteres, 7.5 bits poderiam ser "economizados".
+
+Acho que a conclusão não é tão surpreendente, mas serviram muito bem para treinar algumas habilidades e explorar a curiosidade.
 
 Se você chegou até aqui comigo, muito obrigado!!!
 
-Esse é uma das postagens que faço durante o meu processo de aprendizado também. Então me desculpe por eventuais falhas, ou por postergar demais o resultado. Foi uma longa jornada, mas valeu a pena. Resta agora interpretar o significado desses resultados e sonhar.
+Esse é uma das postagens que faço durante o meu processo de aprendizado também. Então me desculpe por eventuais falhas, ou por postergar demais o resultado. Foi uma longa jornada, mas valeu a pena.
 
 Até que o unicode não é tão ruim para as liguas latinas, quem sabe no futuro não se torne a codificação ótima para todos os idiomas no mundo, simultanea e dinamicamente ou quem sabe os supercomputadores resolvam isso colocando todos os caracteres que existem, ou vão existir, em estado de superposição. 
 
