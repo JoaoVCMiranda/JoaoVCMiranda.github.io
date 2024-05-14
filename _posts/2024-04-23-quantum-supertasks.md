@@ -94,7 +94,7 @@ But now we can better understand with the consolidated field of probabilities in
 
 Thanks for reading until here! Plese feel free to comment bellow or in the video, I'll do my best to debate about any question that might arise.
 
-
+And some special thanks to [3b1b](https://www.youtube.com/@3blue1brown) and [Manim Community](https://www.manim.community/) for mantaining such a nice python library!
 
 ## References
 [^fn-nth-1]: [Quantum Sense](https://www.youtube.com/@quantumsensechannel)
