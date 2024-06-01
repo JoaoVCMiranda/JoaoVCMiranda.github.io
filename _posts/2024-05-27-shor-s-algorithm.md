@@ -12,20 +12,20 @@ math: true
 
 Hi there!
 
-So Shor's algorithm... I might have some notion of what is about and what is does, but _how it works_ is a completely different history.
+So Shor's algorithm[^fn-nth-1]... I might have some notion of what is about and what is does, but _how it works_ is a completely different history.
 
 In this blog post I'm going to make some notes on what I've learned about the Shor's algorithm machinery.
 
-The overall "way of working" of Shor's Factoring Algorithm involves several steps. And among them the most critical ones are the _Quantum Phase Estimation_(QPE) and the _Inverse Quantum Fourrier Transform_(iQFT)
+The overall "way of working" of Shor's Factoring Algorithm involves several steps. And among them the most critical ones are the _Quantum Phase Estimation_(QPE) and the _Inverse Quantum Fourrier Transform_[^fn-nth-2](iQFT)
 
 When I started this blog post thought about explaining how these critical steps work and what are they for in relation to the Shor's algorithm in particular... But I've decided split these into some posts. And then futher reference it in a more concise summary.
 
 So this post will be just about the iQFT
 
-## Inverse Quantum Fourier Transform (iQFT)
+## Inverse Quantum Fourier Transform (iQFT)[^fn-nth-4]
 This algorithm is the basis for various quantum algorithms. At first, we might ask what is a Fourier Transform, how to apply it to quantum physics and why is it inverse!
 
-A Fourier transform is an operation which is done to a function in order to change it's domain to another one with some interesting properties.
+A Fourier transform[^fn-nth-3] is an operation which is done to a function in order to change it's domain to another one with some interesting properties.
 
 Eg. You can take the Fourier transform from the time domain of the audio of this video, and "convert" it to the frequency domain, and instead of having the waves that make my voice spread in time, you would have the frequencies(vibrations) that were used in the video, and the greater the amplitute, for longer you were exposed to this frequency in this video! 
 
@@ -175,11 +175,11 @@ $$
 So multiplying by $ \omega $ does not influence the modulus, and in order to renormalize after the sum, we divide by $ \sqrt{N} $
 
 
-Which can be seen as a quantum gate too!! Which I think is a fairly good way of visualizing it.
-
 A Fourier Transform, even in it's quantum version is a linear (invertible) transformation.
 
 A matrix which transforms the original vector to a new one. Which can also be called a _Quantum Gate_ 
+
+Which I think is a fairly good way of visualizing it.
 
 The bra-ket notation is certainly more concise, but the explicit matrix notation is easier to visualize:
 
@@ -242,14 +242,10 @@ $$
 
 
 ## Next steps
-In the next posts, I`ll write about the Quantum Phase Estimation algorithm and then summarize these posts to explain Shor's algorithm for asymmetric cryptography like RSA. 
+In the next posts, I'll write about the Quantum Phase Estimation algorithm and then summarize these posts to explain Shor's algorithm for asymmetric cryptography like RSA. 
 For symmetric cryptography AES, first I'd need to write about amplitude amplification and the Grover's algorithm
 
-
-## Have you followed this principles ?
-- [X] Clarity (Is the explanation easy to follow ?)
-- [X] Make the video interesting with nice animations
-- [X] Do not exceed 90s
+{% include embed/youtube.html id='nMNvtoZdcAw' %}
 
 ## References
 [^fn-nth-1]: [Shor's Algorithms](https://www.classiq.io/insights/shors-algorithm-explained)
