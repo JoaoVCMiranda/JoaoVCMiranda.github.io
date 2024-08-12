@@ -1,16 +1,13 @@
-# Algumas ideias
+# João
 
-Um blog para compartilhar ideias
+Esta é a minha página pessoal.
 
 [![Build and Deploy](https://github.com/JoaoVCMiranda/JoaoVCMiranda.github.io/actions/workflows/pages-deploy.yml/badge.svg)](https://github.com/JoaoVCMiranda/JoaoVCMiranda.github.io/actions/workflows/pages-deploy.yml)
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-## Objetivo
-É uma forma de me encontrar online, e também para compartilhar algumas ideias legais com os amigos
+MIT -> Para as coisas do site que eu fizer
+CC BY 4.0 -> Para as coisas que eu escrever 
 
-This work is published under [MIT][mit] License.
+## To-do
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+- [ ] Personalizar a página
+- [ ] Umami para análisar o tráfego
