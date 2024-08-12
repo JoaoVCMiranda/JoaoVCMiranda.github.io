@@ -9,13 +9,13 @@ const route = useRoute()
   <div class="
 	min-h-screen
 	mx-auto
-	bg-white
-	border border-stone-700 
-	dark:bg-neutral-800
-	dark:border-stone-300
+	bg-light
+	border border-stone-700
+  dark:bg-dark
+  grid grid-rows-auto
 	">
     <AppHeader />
-    <AppMain /> 
+    <AppMain class="text-dark dark:text-light"/>
   </div>
 </template>
 

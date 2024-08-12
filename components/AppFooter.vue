@@ -5,8 +5,7 @@ const { data } = await useAsyncData('config', () => queryContent('/config').find
 </script>
 <template>
 	<div
-	class=" flex justify-content p-8
-		bg-neutral-400">
+	class="p-8 mx-auto self-end">
 	<footer class="flex">
 		<div class="flex-col justify-content">
 		<span

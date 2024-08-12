@@ -2,8 +2,7 @@
 
 </script>
 <template>
-  <div >
-    <NuxtRouteAnnouncer />
-  </div>
-  <NuxtPage class="min-h-screen font-serif"/> 
+  <div ><NuxtRouteAnnouncer /></div>
+
+  <NuxtPage class="min-h-screen font-serif"/>
 </template>

@@ -22,6 +22,10 @@ export default defineNuxtConfig({
   mdc:{
     remarkPlugins: {
       remarkMath: {src: 'remark-math'}},
-	rehypePlugins: {rehypeMathjax: {src: 'rehype-mathjax'}},	
+	rehypePlugins: {
+    rehypeMathjax: {
+      src: 'rehype-mathjax',
+    }
+  },
   }
 })

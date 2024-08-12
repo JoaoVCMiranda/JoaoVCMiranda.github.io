@@ -1,6 +1,6 @@
 ---
-titulo: O site mais simples de todos
-descricao: Simples e efetivo.
+titulo: Ideias!
+descricao: Estudar, praticar e aperfeiçoar-se sempre.
 # Contatos
 email: joaovcmiranda@usp.br
 github: JoaoVCMiranda

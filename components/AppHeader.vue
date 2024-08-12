@@ -4,46 +4,49 @@
 </script>
 
 <template>
-	<header class="
-		bg-neutral-100 
-		dark:bg-neutral-700
-		mx-4
-		rounded-lg 
-		">
-		<NuxtLink to="/" 
-			class="
-			flex">
-		<img class="rounded-full" src="/profile/profile-192x192.png"/>
-		<div class="mx-4">
-			<h1 
-			class="text-2xl 
-			text-stone-700 
-			dark:text-stone-300">
+	<header >
+    <div id="hero" class="grid grid-flow-row-dense grid-cols-3 content-center">
+
+    <NuxtLink to="/" class="col-span-3 md:col-span-2 grid grid-cols-2">
+		<img class="rounded-full p-4 max-w-[12rem]" src="/profile/profile.png"/>
+		<div class="mx-auto content-center">
+			<h1
+			class="text-2xl
+			text-dark
+			dark:text-light">
 				{{data.titulo}}
 			</h1>
-			<h2 
-			class="text-xl
-			text-neutral-600	
-			dark:text-stone-300">
+			<h2
+			class="text-lg
+			text-dark
+			dark:text-light">
 				{{data.descricao}}
 			</h2>
 		</div>
 		</NuxtLink>
-	    <nav 
-		    class="flex 
-			mx-auto px-4 
-		    	border-b-stone-700
-			dark:border-b-stone-300
-			my-4
-		    ">
-	      <ul 
-	      	class="mx-auto
-		text-xl
-		text-stone-700 dark:text-stone-300">
-		<li><NuxtLink to="/sobre">Sobre</NuxtLink></li>
-		<li><NuxtLink to="/posts">Posts</NuxtLink></li>
-		<li><ThemeSelector /></li>
-	      </ul>
-	    </nav>
+
+	  <nav
+      class="
+            mx-auto
+            px-4
+            col-span-3
+            content-center
+            md:mr-0
+            md:col-span-1
+            ">
+      <ul
+        class=" mx-auto
+                text-xl
+                text-dark
+                dark:text-light">
+          <li class="md:p-1"><NuxtLink to="/sobre">Sobre</NuxtLink></li>
+          <li class="md:p-1"><NuxtLink to="/posts">Posts</NuxtLink></li>
+          <li class="md:p-1">Currículo</li>
+          <li class="md:p-1"><ThemeSelector /></li>
+      </ul>
+    </nav>
+
+    </div>
+
 	</header>
 </template>

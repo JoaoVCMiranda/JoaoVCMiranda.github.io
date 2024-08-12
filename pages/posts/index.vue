@@ -7,10 +7,8 @@ useHead({
 <template>
   <div class="
 	mx-auto
-	bg-neutral-50
-	border border-stone-700 
-	dark:bg-neutral-800
-	dark:border-stone-300
+	bg-light
+	dark:bg-dark
 	">
 	<AppHeader />
 	<PostItem />

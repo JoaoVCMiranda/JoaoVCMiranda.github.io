@@ -5,11 +5,11 @@ const colorMode = useColorMode()
 console.log(colorMode.preference)
 </script>
 <template>
-	<select	
+	<select
 		class="
 		text-xl
-		text-stone-700 dark:text-stone-300
-		bg-neutral-200 dark:bg-neutral-800"
+		text-dark dark:text-light
+		bg-light dark:bg-dark"
 		v-model="$colorMode.preference">
 		<option value="light">light</option>
 		<option value="dark">dark</option>
