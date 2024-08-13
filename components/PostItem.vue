@@ -10,36 +10,34 @@ console.log(query)
 	<div class="flex flex-col mx-auto max-w-[64rem]">
 		<!-- Lembrar de usar wrapper-->
 	<div class="mx-auto">
-		<h1 class="text-4xl text-stone-700 dark:text-stone-300">Posts</h1>
+		<h1 class="text-4xl text-dark dark:text-light my-4">Posts</h1>
 	</div>
 	<ContentList :query="query" v-slot="{ list }">
 
-      	<div 
-		v-for="post in list" 
+      	<div
+		v-for="post in list"
 		:key="post._path"
 		class="
 		border
-		border-stone-700 
-		hover:border-stone-500 
-		bg-stone-100
-		dark:bg-neutral-700
+		border-dark
+    hover:border-stone-500
+		dark:border-light
 		rounded-lg
 		m-4 p-4">
-	<NuxtLink 
+	<NuxtLink
 		:to="post._path">
-        <h2 
+        <h2
 		class="
-		text-2xl 
-		text-stone-700
-		dark:text-stone-300">
+		text-2xl
+		text-dark
+		dark:text-light">
 		{{ post.title }}
 	</h2>
-        <p 
-	class="
-	text-stone-400">
+        <p
+	class="text-dark dark:text-light">
 	{{ post.description }}
 	</p>
-	<p class="text-stone-700 dark:text-stone-400">{{post._path}}</p>
+	<p class="text-dark dark:text-light">{{post._path}}</p>
 
       </NuxtLink>
       </div>

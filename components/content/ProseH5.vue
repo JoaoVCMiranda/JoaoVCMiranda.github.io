@@ -1,10 +1,10 @@
 <template>
-  <h5 :id="id" 
+  <h5 :id="id"
 	class= "text-2xl
-		text-stone-700
-		font-semibold 
+		text-dark
+		font-semibold
 		my-4
-		dark:text-stone-300">
+		dark:text-light">
     <a
       v-if="id && generate"
       :href="`#${id}`"

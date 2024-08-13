@@ -1,5 +1,5 @@
 <template>
-  <div class="border rounded border-stone-700 dark:border-stone-300">
+  <div class="border rounded border-dark dark:border-light">
   <component
     :is="imgComponent"
     :src="refinedSrc"

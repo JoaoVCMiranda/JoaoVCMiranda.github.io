@@ -1,9 +1,9 @@
 <template>
-  <tr 
+  <tr
   	class="
-		border 
-		border-stone-700
-		dark:border-stone-300">
+		border
+		border-dark
+		dark:border-light">
     <slot />
   </tr>
 </template>

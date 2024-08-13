@@ -2,7 +2,7 @@
   <NuxtLink
     :href="href"
     :target="target"
-    class="underline text-emerald-500 dark:text-teal-500"
+    class="underline text-[#10b981] dark:text-[#14b8a6]"
   >
     <slot />
   </NuxtLink>

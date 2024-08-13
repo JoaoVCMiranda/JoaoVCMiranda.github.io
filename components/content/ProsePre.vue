@@ -1,29 +1,30 @@
 <template>
-	<!--Code Block--> 
+	<!--Code Block-->
 	<div class="
-		bg-gray-700
+		bg-[#374151]
 		border
-		border-stone-800
+		border-dark
 		rounded-md
-		text-stone-300
+		text-light
 		">
 		<!--"Header"-->
 		<div class="
-			grid grid-cols-3 gap-2	
+			grid grid-cols-3 gap-2
 			rounded-md
 			justify-items-stretch
-			bg-gray-600"
+			bg-[#4b5563]"
 		     v-if="$props.filename || $props.language">
 		<!--Filename if exists-->
-		<div 
-		  id="filename-container" 
+		<div
+		  id="filename-container"
 		  >
 		<button @click="copy(code)">
-		<div 
-			class="m-1 p-1 
-			hover:border 
-			rounded-lg
-			drop-shadow-md
+		<div
+			class="m-1 p-1
+			border-[#4b5563]
+      hover:border-dark
+      rounded-lg
+			shadow-inner
 			"
 			id="copy-btn">
 
@@ -36,10 +37,10 @@
 		<span v-if="copied">
 			Copiado!
 		</span>
-		  <div 
+		  <div
 			v-if="$props.filename"
 			class="
-			bg-gray-700 
+			bg-[#374151]
 			mt-2 p-2 pl-4 flex-wrap
 			rounded-t-lg
 			">
@@ -50,23 +51,23 @@
 	  	</div>
 		<!--Code lang container-->
 		  <div    id="code-lang-container"
-			  
-			  class="mx-auto my-2 text-neutral-300"
+
+			  class="mx-auto my-2 text-light"
 			  >
 			  <p v-if="$props.language">
 			  {{$props.language}}
 			  </p>
 		  </div>
-		
+
 			  <!--UI-->
 		<div class="justify-self-end m-4">
 
-		
+
 		<div class="w-16 grid grid-cols-4 justify-items-center">
 
-		  <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
-		  <div class="w-2 h-2 bg-yellow-400 rounded-full"></div>
-		  <div class="w-2 h-2 bg-red-400 rounded-full"></div>
+		  <div class="w-2 h-2 bg-[#34d399] rounded-full"></div>
+		  <div class="w-2 h-2 bg-[#facc15] rounded-full"></div>
+		  <div class="w-2 h-2 bg-[#f87171] rounded-full"></div>
 		</div>
 		</div>
 

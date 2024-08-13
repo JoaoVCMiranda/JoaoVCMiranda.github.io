@@ -1,10 +1,10 @@
 <template>
-  <h1 :id="id" 
+  <h1 :id="id"
 	  class= " text-6xl
-		   text-stone-700
-		   font-semibold 
+		   text-dark
+		   font-semibold
 		   my-4
-		   dark:text-stone-300
+		   dark:text-light
 		   ">
     <a
       v-if="generate"

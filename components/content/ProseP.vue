@@ -1,7 +1,7 @@
 <template>
-  <p 
+  <p
   class="
-  text-stone-700
-  dark:text-stone-300">
+  text-dark
+  dark:text-light">
   <slot /></p>
 </template>

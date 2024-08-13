@@ -1,11 +1,11 @@
 <template>
-  <h6 :id="id" 
+  <h6 :id="id"
 	  class= " text-xl
-		   text-stone-700
-		   font-semibold 
+		   text-dark
+		   font-semibold
 		   my-4
-		   dark:text-stone-300
-		   ">
+		   dark:text-light
+       ">
     <a
       v-if="id && generate"
       :href="`#${id}`"

@@ -1,11 +1,11 @@
 <template>
-  <thead 
+  <thead
 	  class="
-		border 
-		border-stone-700
-		dark:border-stone-300
-		text-stone-700
-		dark:text-stone-300">
+		border
+		border-dark
+    dark:border-light
+		text-dark
+		dark:text-light">
     <slot />
   </thead>
 </template>

@@ -8,7 +8,7 @@
     <div id="hero" class="grid grid-flow-row-dense grid-cols-3 content-center">
 
     <NuxtLink to="/" class="col-span-3 md:col-span-2 grid grid-cols-2">
-		<img class="rounded-full p-4 max-w-[12rem]" src="/profile/profile.png"/>
+		<Logo class="rounded-full p-4 max-w-[12rem]" />
 		<div class="mx-auto content-center">
 			<h1
 			class="text-2xl
@@ -39,10 +39,10 @@
                 text-xl
                 text-dark
                 dark:text-light">
-          <li class="md:p-1"><NuxtLink to="/sobre">Sobre</NuxtLink></li>
-          <li class="md:p-1"><NuxtLink to="/posts">Posts</NuxtLink></li>
-          <li class="md:p-1">Currículo</li>
-          <li class="md:p-1"><ThemeSelector /></li>
+          <li class="px-1 rounded-md md:p-1 hover:shadow-inner"><NuxtLink to="/sobre">Sobre</NuxtLink></li>
+          <li class="px-1 rounded-md md:p-1 hover:shadow-inner"><NuxtLink to="/posts">Posts</NuxtLink></li>
+          <li class="px-1 rounded-md md:p-1 hover:shadow-inner">Currículo</li>
+          <li class="px-1 md:p-1"><ThemeSelector /></li>
       </ul>
     </nav>
 

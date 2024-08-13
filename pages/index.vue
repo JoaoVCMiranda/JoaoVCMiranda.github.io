@@ -10,7 +10,6 @@ const route = useRoute()
 	min-h-screen
 	mx-auto
 	bg-light
-	border border-stone-700
   dark:bg-dark
   grid grid-rows-auto
 	">

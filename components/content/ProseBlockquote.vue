@@ -1,10 +1,9 @@
 <template>
-  <blockquote 
+  <blockquote
 	  class="
 		border-l
-		
-		border-neutral-700
-		dark:border-neutral-300
+		border-dark
+		dark:border-light
 		p-2">
     <slot />
   </blockquote>
