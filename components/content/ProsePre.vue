@@ -6,6 +6,7 @@
 		border-dark
 		rounded-md
 		text-light
+    my-4
 		">
 		<!--"Header"-->
 		<div class="
@@ -43,8 +44,10 @@
 			bg-[#374151]
 			mt-2 p-2 pl-4 flex-wrap
 			rounded-t-lg
+      text-wrap
 			">
-		<p>
+		<p >
+
 		  {{ $props.filename }}
 		</p>
 		  </div>
@@ -75,7 +78,7 @@
 		<!--Code-->
 
 		  <pre :class="$props.class"
-			class="p-2"
+			class="p-2 text-wrap lg:overflow-x-auto"
 		  ><slot /></pre>
   </div>
 </template>

@@ -245,7 +245,7 @@ $$
 In the next posts, I'll write about the Quantum Phase Estimation algorithm and then summarize these posts to explain Shor's algorithm for asymmetric cryptography like RSA. 
 For symmetric cryptography AES, first I'd need to write about amplitude amplification and the Grover's algorithm
 
-{% include embed/youtube.html id='nMNvtoZdcAw' %}
+:Youtube{url='nMNvtoZdcAw'}
 
 ## References
 [^fn-nth-1]: [Shor's Algorithms](https://www.classiq.io/insights/shors-algorithm-explained)

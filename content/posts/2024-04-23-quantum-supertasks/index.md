@@ -86,7 +86,7 @@ The parity of the steps enter a superposition state because the steps converge i
 
 This video might help to explain this situation.
 
-{% include embed/youtube.html id='KgEqZn7O7io' %}
+:Youtube{url="KgEqZn7O7io"}
 
 So in fact this paradox helps to illustrate the duality of nature, aquilles will surpass the tortoise in the continuum, however,even if we choose to discretize in a quantum level, the universe still has properties of the continuum. 
 

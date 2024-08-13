@@ -51,7 +51,7 @@ Therefore, the equivalent processing on a supercomputer with $ N $ Qubits is a c
 
 So we would have like a vector of random variables not yet collapsed, and the real work with the analogous to the [combinatorial circuit](https://en.wikipedia.org/wiki/Combinational_logic) (and, or, not) would be work on maximizing the probabilities for when this supervector collapses, it will collapse on the right answer as if it "passed" through every possible state in parallel.
 
-{% include embed/youtube.html id='BZQ-U7Ek8rQ' %}
+:Youtube{url="BZQ-U7Ek8rQ"}
 
 
 ## References
